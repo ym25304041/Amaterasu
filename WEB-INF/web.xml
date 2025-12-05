@@ -1,0 +1,28 @@
+<web-app>
+    <servlet>
+        <servlet-name>input</servlet-name>
+        <jsp-file>/input.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>input</servlet-name>
+        <url-pattern>/input</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>regist</servlet-name>
+        <servlet-class>/regist</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>regist</servlet-name>
+        <url-pattern>/regist</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>output</servlet-name>
+        <jsp-file>/output.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>output</servlet-name>
+        <url-pattern>/output</url-pattern>
+    </servlet-mapping>
+</web-app>
