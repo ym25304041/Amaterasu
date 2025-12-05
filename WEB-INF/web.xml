@@ -10,7 +10,7 @@
 
     <servlet>
         <servlet-name>regist</servlet-name>
-        <servlet-class>/regist</servlet-class>
+        <servlet-class>RegistServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>regist</servlet-name>
